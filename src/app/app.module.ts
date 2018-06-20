@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { AuthGuardService as AuthGuard, AuthGuardService} from './auth-guard.service'
+import { AuthGuardService as AuthGuard, AuthGuardService} from './auth-guard.service';
 import { DataService } from './data.service';
 import { SimpleService } from './simple.service';
 import { AuthorsComponent } from './authors/authors.component';
@@ -14,10 +14,7 @@ import { ChildComponent } from './authors/child/child.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NotFoundComponent,
-    AuthorsComponent,
-    ChildComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
