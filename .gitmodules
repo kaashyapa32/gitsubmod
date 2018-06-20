@@ -1,0 +1,3 @@
+[submodule "sub-mod-upd"]
+	path = sub-mod-upd
+	url = git@github.com:kaashyapa32/sub-mod-upd.git
